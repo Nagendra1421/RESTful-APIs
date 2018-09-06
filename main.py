@@ -26,16 +26,16 @@ session = DBSession()
 app = Flask(__name__)
 app.config['OAUTH_CREDENTIALS'] = {
     'facebook': {
-          'id': '470154729788964',
-          'secret': '010cc08bd4f51e34f3f3e684fbdea8a7'
+          'id': 'YOUR_ID',
+          'secret': 'YOUR_SECRET_ID'
       },
       'google': {
-          'id': '763910754530-rqig5i0qt95f2832bdkg15m49580rhtl.apps.googleusercontent.com',
-          'secret': 'KA5kZILEXedg8SuQsied7MfW'
+          'id': 'YOUR_ID',
+          'secret': 'YOUR_SECRET_ID'
       },
       'twitter': {
-          'id': '3RzWQclolxWZIMq5LJqzRZPTl',
-          'secret': 'm9TEd58DSEtRrZHpz2EjrV9AhsBRxKMo8m3kuIZj3zLwzwIimt'
+          'id': 'YOUR_ID',
+          'secret': 'YOUR_SECRET_ID'
       },
 }
 
